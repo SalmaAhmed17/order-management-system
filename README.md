@@ -1,5 +1,5 @@
 # order-management-system
-# overview
+# Overview
 This repository contains an Order Management System (OMS) that manages Customers, Products, Orders, and Invoices via REST APIs (Spring Boot). The system includes JWT-based authentication and role-based access to order management endpoints. Docker is used for containerized deployment of both backend and database, enabling quick setup.
 
 # Tech Stack
@@ -23,7 +23,7 @@ This repository contains an Order Management System (OMS) that manages Customers
 # Docker Setup
 The project includes a Dockerfile for the backend and a docker-compose.yml file to run the backend and database together.
 Run with Docker Compose:
-   - docker-compose up --build
+         - docker-compose up --build
 
 - Backend will be available at: http://localhost:8080
 - Swagger UI: http://localhost:8080/swagger-ui/index.html
