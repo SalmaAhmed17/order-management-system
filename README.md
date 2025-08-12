@@ -13,6 +13,8 @@ This repository contains an Order Management System (OMS) that manages Customers
 - Docker 
 
 # Features
+- User profile creation and authentication using JWT
+- Role-based access control/Authorization
 - CRUD for Customers, Products, Orders, and Invoices  
 - Validations: stock availability, email/mobile format, required fields  
 - Business rules: invoice auto-generation when order status becomes `COMPLETED`  
