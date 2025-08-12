@@ -13,11 +13,12 @@ This repository contains an Order Management System (OMS) that manages Customers
 -Docker 
 
 # Features
--CRUD for Customers, Products, Orders, and Invoices
--Validations: stock availability, email/mobile format, required fields
--Business rules: invoice auto-generation when order status becomes COMPLETED
--Inquiry APIs: get orders by customer, get invoice by order, product filters with pagination & sorting
--Exception handling for invalid token, missing fields, insufficient stock, and general errors
+- CRUD for Customers, Products, Orders, and Invoices  
+- Validations: stock availability, email/mobile format, required fields  
+- Business rules: invoice auto-generation when order status becomes `COMPLETED`  
+- Inquiry APIs: get orders by customer, get invoice by order, product filters with pagination & sorting  
+- Exception handling for invalid token, missing fields, insufficient stock, and general errors  
+
 
 # Docker Setup
 The project includes a Dockerfile for the backend and a docker-compose.yml file to run the backend and database together.
